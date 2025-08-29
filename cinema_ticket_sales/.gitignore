@@ -3,6 +3,8 @@
 .env
 .env.backup
 .env.production
+.env.staging
+.env.testing
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -18,7 +20,13 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/framework
+/storage/logs
+/bootstrap/cache
 /vendor
 Homestead.json
 Homestead.yaml
 Thumbs.db
+/.cache
+/yarn-error.log
+/npm-debug.log
